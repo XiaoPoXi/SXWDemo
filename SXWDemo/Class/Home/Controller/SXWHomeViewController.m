@@ -14,6 +14,10 @@
 #import "ProblemCalculateCoinViewController.h"//硬币问题
 #import "SXWH5ViewController.h"//h5
 #import "SXWZipArchiveHTMLViewController.h"//解压zip 加载h5
+#import "SXWSliderViewController.h"//进度条
+
+
+
 @interface SXWHomeViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic,strong) UICollectionView * collectionView;
@@ -138,7 +142,12 @@
         vc.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:vc animated:YES];
     }
-    
+    else if (indexPath.row == 4)
+    {
+        SXWSliderViewController *vc = [SXWSliderViewController new];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 #pragma mark -----------------设置collectionView头部尾部视图--------------------

@@ -86,7 +86,6 @@
 		24384F4922C0990500D01FEE /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24384F4322C0990500D01FEE /* delete@2x.png */; };
 		24384F4A22C0990500D01FEE /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24384F4422C0990500D01FEE /* delete@3x.png */; };
 		24384F4D22C09EFF00D01FEE /* SXWImagePickCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24384F4C22C09EFF00D01FEE /* SXWImagePickCollectionViewCell.m */; };
-		243AD7C821F6DF1F00269819 /* SXWMememeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243AD7C721F6DF1F00269819 /* SXWMememeWebViewController.m */; };
 		247D0B1A21D3491300C70D3E /* SXWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D0B1921D3491300C70D3E /* SXWHomeViewController.m */; };
 		247D0B1D21D3492800C70D3E /* SXWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D0B1C21D3492800C70D3E /* SXWSecondViewController.m */; };
 		247D0B2321D3494D00C70D3E /* SXWThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D0B2221D3494D00C70D3E /* SXWThirdViewController.m */; };
@@ -133,8 +132,6 @@
 		70664D8822EBF107002C8727 /* kanjiaicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70664D7022EBF107002C8727 /* kanjiaicon.png */; };
 		70664D8922EBF107002C8727 /* tuangouicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70664D7122EBF107002C8727 /* tuangouicon.png */; };
 		70664D8A22EBF107002C8727 /* remaiicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70664D7222EBF107002C8727 /* remaiicon@3x.png */; };
-		70664D8D22EC451D002C8727 /* SXWZipArchiveHTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70664D8C22EC451D002C8727 /* SXWZipArchiveHTMLViewController.m */; };
-		706E55A722EA8E8000DB53DC /* SXWH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E55A622EA8E8000DB53DC /* SXWH5ViewController.m */; };
 		706E55B422EA9D3F00DB53DC /* WebViewJavascriptBridge_JS.js in Resources */ = {isa = PBXBuildFile; fileRef = 706E55A922EA9D3F00DB53DC /* WebViewJavascriptBridge_JS.js */; };
 		706E55B522EA9D3F00DB53DC /* ExampleUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E55AA22EA9D3F00DB53DC /* ExampleUIWebViewController.m */; };
 		706E55B622EA9D3F00DB53DC /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E55AB22EA9D3F00DB53DC /* WebViewJavascriptBridgeBase.m */; };
@@ -145,6 +142,12 @@
 		706E55BF22EACCB600DB53DC /* huiyuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 706E55BC22EACCB600DB53DC /* huiyuan@3x.png */; };
 		706E55C022EACCB600DB53DC /* huiyuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 706E55BD22EACCB600DB53DC /* huiyuan@2x.png */; };
 		707B9D3522F28815005BEE3C /* EventCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 707B9D3422F28815005BEE3C /* EventCalendar.m */; };
+		707B9D4022F2BB88005BEE3C /* SXWMememeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707B9D3922F2BB88005BEE3C /* SXWMememeWebViewController.m */; };
+		707B9D4122F2BB88005BEE3C /* SXWZipArchiveHTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707B9D3A22F2BB88005BEE3C /* SXWZipArchiveHTMLViewController.m */; };
+		707B9D4222F2BB88005BEE3C /* SXWH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707B9D3B22F2BB88005BEE3C /* SXWH5ViewController.m */; };
+		707B9D4322F2BB88005BEE3C /* ProblemCalculateCoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707B9D3F22F2BB88005BEE3C /* ProblemCalculateCoinViewController.m */; };
+		707B9D4722F2BDF5005BEE3C /* SXWSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707B9D4622F2BDF5005BEE3C /* SXWSliderViewController.m */; };
+		707B9D4A22F2C2D1005BEE3C /* SXWSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 707B9D4922F2C2D1005BEE3C /* SXWSlider.m */; };
 		7081987B22E7E78D0001129C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7081987A22E7E78D0001129C /* Images.xcassets */; };
 		7081987F22E7ECDA0001129C /* SplashScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7081987E22E7ECDA0001129C /* SplashScreenView.m */; };
 		7081988222E7EDD50001129C /* SplashScreenDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7081988122E7EDD50001129C /* SplashScreenDataManager.m */; };
@@ -188,7 +191,6 @@
 		708198DC22E827160001129C /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 708198DA22E827160001129C /* UIImage+ImageEffects.m */; };
 		708198DE22E82D070001129C /* huba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 708198DD22E82D070001129C /* huba.jpeg */; };
 		708198E122E835BA0001129C /* SXWPersonalNewHeadCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 708198E022E835BA0001129C /* SXWPersonalNewHeadCollectionViewCell.m */; };
-		70A5F70222E5A057006BBB2F /* ProblemCalculateCoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5F70122E5A057006BBB2F /* ProblemCalculateCoinViewController.m */; };
 		70C7363322E934680061A8AE /* SXWPersonalCenterOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7363222E934680061A8AE /* SXWPersonalCenterOrderTableViewCell.m */; };
 		70C7363622E935180061A8AE /* SXWPersonalCenterSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7363522E935180061A8AE /* SXWPersonalCenterSectionHeadView.m */; };
 		70C7363922E939E20061A8AE /* SXWPersonalCenterOrderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7363822E939E20061A8AE /* SXWPersonalCenterOrderCollectionViewCell.m */; };
@@ -322,8 +324,6 @@
 		24384F4422C0990500D01FEE /* delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@3x.png"; sourceTree = "<group>"; };
 		24384F4B22C09EFF00D01FEE /* SXWImagePickCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWImagePickCollectionViewCell.h; sourceTree = "<group>"; };
 		24384F4C22C09EFF00D01FEE /* SXWImagePickCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWImagePickCollectionViewCell.m; sourceTree = "<group>"; };
-		243AD7C621F6DF1F00269819 /* SXWMememeWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWMememeWebViewController.h; sourceTree = "<group>"; };
-		243AD7C721F6DF1F00269819 /* SXWMememeWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWMememeWebViewController.m; sourceTree = "<group>"; };
 		247D0B1821D3491300C70D3E /* SXWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWHomeViewController.h; sourceTree = "<group>"; };
 		247D0B1921D3491300C70D3E /* SXWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWHomeViewController.m; sourceTree = "<group>"; };
 		247D0B1B21D3492800C70D3E /* SXWSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWSecondViewController.h; sourceTree = "<group>"; };
@@ -378,10 +378,6 @@
 		70664D7022EBF107002C8727 /* kanjiaicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanjiaicon.png; sourceTree = "<group>"; };
 		70664D7122EBF107002C8727 /* tuangouicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuangouicon.png; sourceTree = "<group>"; };
 		70664D7222EBF107002C8727 /* remaiicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "remaiicon@3x.png"; sourceTree = "<group>"; };
-		70664D8B22EC451D002C8727 /* SXWZipArchiveHTMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWZipArchiveHTMLViewController.h; sourceTree = "<group>"; };
-		70664D8C22EC451D002C8727 /* SXWZipArchiveHTMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWZipArchiveHTMLViewController.m; sourceTree = "<group>"; };
-		706E55A522EA8E8000DB53DC /* SXWH5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWH5ViewController.h; sourceTree = "<group>"; };
-		706E55A622EA8E8000DB53DC /* SXWH5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWH5ViewController.m; sourceTree = "<group>"; };
 		706E55A922EA9D3F00DB53DC /* WebViewJavascriptBridge_JS.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebViewJavascriptBridge_JS.js; sourceTree = "<group>"; };
 		706E55AA22EA9D3F00DB53DC /* ExampleUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleUIWebViewController.m; sourceTree = "<group>"; };
 		706E55AB22EA9D3F00DB53DC /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
@@ -398,6 +394,18 @@
 		706E55BD22EACCB600DB53DC /* huiyuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "huiyuan@2x.png"; sourceTree = "<group>"; };
 		707B9D3322F28815005BEE3C /* EventCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventCalendar.h; sourceTree = "<group>"; };
 		707B9D3422F28815005BEE3C /* EventCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventCalendar.m; sourceTree = "<group>"; };
+		707B9D3722F2BB88005BEE3C /* SXWH5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXWH5ViewController.h; sourceTree = "<group>"; };
+		707B9D3822F2BB88005BEE3C /* SXWZipArchiveHTMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXWZipArchiveHTMLViewController.h; sourceTree = "<group>"; };
+		707B9D3922F2BB88005BEE3C /* SXWMememeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXWMememeWebViewController.m; sourceTree = "<group>"; };
+		707B9D3A22F2BB88005BEE3C /* SXWZipArchiveHTMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXWZipArchiveHTMLViewController.m; sourceTree = "<group>"; };
+		707B9D3B22F2BB88005BEE3C /* SXWH5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXWH5ViewController.m; sourceTree = "<group>"; };
+		707B9D3C22F2BB88005BEE3C /* SXWMememeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXWMememeWebViewController.h; sourceTree = "<group>"; };
+		707B9D3E22F2BB88005BEE3C /* ProblemCalculateCoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemCalculateCoinViewController.h; sourceTree = "<group>"; };
+		707B9D3F22F2BB88005BEE3C /* ProblemCalculateCoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemCalculateCoinViewController.m; sourceTree = "<group>"; };
+		707B9D4522F2BDF5005BEE3C /* SXWSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWSliderViewController.h; sourceTree = "<group>"; };
+		707B9D4622F2BDF5005BEE3C /* SXWSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWSliderViewController.m; sourceTree = "<group>"; };
+		707B9D4822F2C2D1005BEE3C /* SXWSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWSlider.h; sourceTree = "<group>"; };
+		707B9D4922F2C2D1005BEE3C /* SXWSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWSlider.m; sourceTree = "<group>"; };
 		7081987A22E7E78D0001129C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7081987D22E7ECDA0001129C /* SplashScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreenView.h; sourceTree = "<group>"; };
 		7081987E22E7ECDA0001129C /* SplashScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenView.m; sourceTree = "<group>"; };
@@ -448,8 +456,6 @@
 		708198DD22E82D070001129C /* huba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huba.jpeg; sourceTree = "<group>"; };
 		708198DF22E835BA0001129C /* SXWPersonalNewHeadCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWPersonalNewHeadCollectionViewCell.h; sourceTree = "<group>"; };
 		708198E022E835BA0001129C /* SXWPersonalNewHeadCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWPersonalNewHeadCollectionViewCell.m; sourceTree = "<group>"; };
-		70A5F70022E5A057006BBB2F /* ProblemCalculateCoinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProblemCalculateCoinViewController.h; sourceTree = "<group>"; };
-		70A5F70122E5A057006BBB2F /* ProblemCalculateCoinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProblemCalculateCoinViewController.m; sourceTree = "<group>"; };
 		70C7363122E934680061A8AE /* SXWPersonalCenterOrderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWPersonalCenterOrderTableViewCell.h; sourceTree = "<group>"; };
 		70C7363222E934680061A8AE /* SXWPersonalCenterOrderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXWPersonalCenterOrderTableViewCell.m; sourceTree = "<group>"; };
 		70C7363422E935180061A8AE /* SXWPersonalCenterSectionHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXWPersonalCenterSectionHeadView.h; sourceTree = "<group>"; };
@@ -627,6 +633,9 @@
 		2425327921D0BC62008CC493 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				707B9D4422F2BDE1005BEE3C /* 进度条 */,
+				707B9D3D22F2BB88005BEE3C /* 计算硬币问题 */,
+				707B9D3622F2BB88005BEE3C /* 下载zip解压并加载H5 */,
 				707B9D3222F287F9005BEE3C /* 添加系统提醒事件 */,
 				7081988322E7FF130001129C /* 高斯模糊毛玻璃效果 */,
 				7081987C22E7ECC80001129C /* 启动页加载广告 */,
@@ -652,15 +661,8 @@
 		2425327B21D0BC62008CC493 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				70A5F6FF22E59FEA006BBB2F /* 计算硬币问题 */,
 				247D0B1821D3491300C70D3E /* SXWHomeViewController.h */,
 				247D0B1921D3491300C70D3E /* SXWHomeViewController.m */,
-				706E55A522EA8E8000DB53DC /* SXWH5ViewController.h */,
-				706E55A622EA8E8000DB53DC /* SXWH5ViewController.m */,
-				243AD7C621F6DF1F00269819 /* SXWMememeWebViewController.h */,
-				243AD7C721F6DF1F00269819 /* SXWMememeWebViewController.m */,
-				70664D8B22EC451D002C8727 /* SXWZipArchiveHTMLViewController.h */,
-				70664D8C22EC451D002C8727 /* SXWZipArchiveHTMLViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -986,6 +988,39 @@
 			path = "添加系统提醒事件";
 			sourceTree = "<group>";
 		};
+		707B9D3622F2BB88005BEE3C /* 下载zip解压并加载H5 */ = {
+			isa = PBXGroup;
+			children = (
+				707B9D3722F2BB88005BEE3C /* SXWH5ViewController.h */,
+				707B9D3B22F2BB88005BEE3C /* SXWH5ViewController.m */,
+				707B9D3C22F2BB88005BEE3C /* SXWMememeWebViewController.h */,
+				707B9D3922F2BB88005BEE3C /* SXWMememeWebViewController.m */,
+				707B9D3822F2BB88005BEE3C /* SXWZipArchiveHTMLViewController.h */,
+				707B9D3A22F2BB88005BEE3C /* SXWZipArchiveHTMLViewController.m */,
+			);
+			path = "下载zip解压并加载H5";
+			sourceTree = "<group>";
+		};
+		707B9D3D22F2BB88005BEE3C /* 计算硬币问题 */ = {
+			isa = PBXGroup;
+			children = (
+				707B9D3E22F2BB88005BEE3C /* ProblemCalculateCoinViewController.h */,
+				707B9D3F22F2BB88005BEE3C /* ProblemCalculateCoinViewController.m */,
+			);
+			path = "计算硬币问题";
+			sourceTree = "<group>";
+		};
+		707B9D4422F2BDE1005BEE3C /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				707B9D4522F2BDF5005BEE3C /* SXWSliderViewController.h */,
+				707B9D4622F2BDF5005BEE3C /* SXWSliderViewController.m */,
+				707B9D4822F2C2D1005BEE3C /* SXWSlider.h */,
+				707B9D4922F2C2D1005BEE3C /* SXWSlider.m */,
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
 		7081987C22E7ECC80001129C /* 启动页加载广告 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1061,15 +1096,6 @@
 				708198DA22E827160001129C /* UIImage+ImageEffects.m */,
 			);
 			path = LBBlurredImage;
-			sourceTree = "<group>";
-		};
-		70A5F6FF22E59FEA006BBB2F /* 计算硬币问题 */ = {
-			isa = PBXGroup;
-			children = (
-				70A5F70022E5A057006BBB2F /* ProblemCalculateCoinViewController.h */,
-				70A5F70122E5A057006BBB2F /* ProblemCalculateCoinViewController.m */,
-			);
-			path = "计算硬币问题";
 			sourceTree = "<group>";
 		};
 		70C7364222E975F70061A8AE /* UIView+UIBezierPath */ = {
@@ -1389,17 +1415,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243AD7C821F6DF1F00269819 /* SXWMememeWebViewController.m in Sources */,
 				2425329821D0BE20008CC493 /* SXWBaseViewController.m in Sources */,
 				7081988222E7EDD50001129C /* SplashScreenDataManager.m in Sources */,
 				247D0B2321D3494D00C70D3E /* SXWThirdViewController.m in Sources */,
 				247D0B1D21D3492800C70D3E /* SXWSecondViewController.m in Sources */,
 				2425329121D0BCAE008CC493 /* ZHWarnView.m in Sources */,
+				707B9D4122F2BB88005BEE3C /* SXWZipArchiveHTMLViewController.m in Sources */,
 				240AED0121DDE6E400FF9E08 /* SXWHomeCollectionViewCell.m in Sources */,
 				70C7363922E939E20061A8AE /* SXWPersonalCenterOrderCollectionViewCell.m in Sources */,
 				240AED0821DDE83200FF9E08 /* SXWMarqueeView.m in Sources */,
 				70664D3D22EBE09B002C8727 /* SXWPersonalCenterOrderFootView.m in Sources */,
 				7081988622E7FF5E0001129C /* GaussianBlurViewController.m in Sources */,
+				707B9D4A22F2C2D1005BEE3C /* SXWSlider.m in Sources */,
 				247D0B2621D3495900C70D3E /* SXWMineViewController.m in Sources */,
 				70C7363322E934680061A8AE /* SXWPersonalCenterOrderTableViewCell.m in Sources */,
 				2425329B21D0BE3B008CC493 /* SXWBaseNavigationViewController.m in Sources */,
@@ -1407,7 +1434,6 @@
 				70664D4022EBE43B002C8727 /* SXWToolServeSectionHeadView.m in Sources */,
 				70C7364122E958EE0061A8AE /* SXWToolServeCollectionViewCell.m in Sources */,
 				708198DB22E827160001129C /* UIImageView+LBBlurredImage.m in Sources */,
-				70A5F70222E5A057006BBB2F /* ProblemCalculateCoinViewController.m in Sources */,
 				2425324C21D0B4D8008CC493 /* ViewController.m in Sources */,
 				24B1C49622D45A480073B7CB /* NetWorkNameModel.m in Sources */,
 				706E55B822EA9D3F00DB53DC /* WebViewJavascriptBridge.m in Sources */,
@@ -1421,7 +1447,7 @@
 				708198E122E835BA0001129C /* SXWPersonalNewHeadCollectionViewCell.m in Sources */,
 				706E55B922EA9D3F00DB53DC /* WebViewJavascriptBridge_JS.m in Sources */,
 				247D0B1A21D3491300C70D3E /* SXWHomeViewController.m in Sources */,
-				706E55A722EA8E8000DB53DC /* SXWH5ViewController.m in Sources */,
+				707B9D4222F2BB88005BEE3C /* SXWH5ViewController.m in Sources */,
 				24384F3A22C077A200D01FEE /* ImagesPickView.m in Sources */,
 				70C7363E22E958D70061A8AE /* SXWToolServeTableViewCell.m in Sources */,
 				240AED0421DDE7EC00FF9E08 /* SXWHomeModel.m in Sources */,
@@ -1429,14 +1455,16 @@
 				70C7363622E935180061A8AE /* SXWPersonalCenterSectionHeadView.m in Sources */,
 				24384F3722C0730600D01FEE /* SXWSelectImageTZImagePickerController.m in Sources */,
 				240B0DD821DC9E5B00C790D4 /* SXWMainViewController.m in Sources */,
-				70664D8D22EC451D002C8727 /* SXWZipArchiveHTMLViewController.m in Sources */,
 				2425329221D0BCAE008CC493 /* UIView+ShowView.m in Sources */,
+				707B9D4322F2BB88005BEE3C /* ProblemCalculateCoinViewController.m in Sources */,
 				707B9D3522F28815005BEE3C /* EventCalendar.m in Sources */,
 				706E55B722EA9D3F00DB53DC /* WKWebViewJavascriptBridge.m in Sources */,
 				2425325721D0B4E9008CC493 /* main.m in Sources */,
 				7081987F22E7ECDA0001129C /* SplashScreenView.m in Sources */,
+				707B9D4022F2BB88005BEE3C /* SXWMememeWebViewController.m in Sources */,
 				706E55B522EA9D3F00DB53DC /* ExampleUIWebViewController.m in Sources */,
 				240B0DD521DC9BBB00C790D4 /* SXWBaseTabBarController.m in Sources */,
+				707B9D4722F2BDF5005BEE3C /* SXWSliderViewController.m in Sources */,
 				70249BE922E1954C0014E71C /* statistics.m in Sources */,
 				2425324921D0B4D7008CC493 /* AppDelegate.m in Sources */,
 			);

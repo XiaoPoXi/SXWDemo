@@ -119,15 +119,16 @@
 //请求当前项目压缩包版本号。如果版本号比本地版本号大或者本地没有，请求zip压缩包；如果版本号和本地一样，直接加载本地web数据。
 -(void)getversion
 {
-    NSArray *documentArray =  NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-    NSString *path1 = [[documentArray lastObject] stringByAppendingPathComponent:@"Preferences"];
-    if([[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"%@/hybrid",path1]])
-    {
-        [self loadWebData];
+    [self rquestZipArchivePath:@"http://192.168.8.35/public.zip"];
+//    NSArray *documentArray =  NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+//    NSString *path1 = [[documentArray lastObject] stringByAppendingPathComponent:@"Preferences"];
+//    if([[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"%@/hybrid",path1]])
+//    {
+//        [self loadWebData];
+////        [self rquestZipArchivePath:@"http://192.168.8.35/public.zip"];
+//    }else{
 //        [self rquestZipArchivePath:@"http://192.168.8.35/public.zip"];
-    }else{
-        [self rquestZipArchivePath:@"http://192.168.8.35/public.zip"];
-    }
+//    }
 
 }
 #pragma mark 请求zip地址
