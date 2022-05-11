@@ -10,12 +10,8 @@
 #import "SXWHomeCollectionViewCell.h"//collectionCell
 #import "SXWHomeCollectionHeaderReusableView.h"//collectionHeader
 #import "SXWHomeCollectionFooterrReusableView.h"//collectionFooter
-#import "SXWMememeWebViewController.h"
-#import "ProblemCalculateCoinViewController.h"//硬币问题
-#import "SXWH5ViewController.h"//h5
-#import "SXWZipArchiveHTMLViewController.h"//解压zip 加载h5
-#import "SXWSliderViewController.h"//进度条
-
+#import "SXWHXPhotoViewController.h"//图片选择器
+#import "SXWGetFishViewController.h"//摸鱼办
 
 
 @interface SXWHomeViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
@@ -41,16 +37,14 @@
 - (void)initDataSource
 {
     self.dataArray = [NSArray array];
-    self.dataArray = @[@"我的微博",@"小荷才露尖尖角",@"蝉噪林逾静",@"连雨不知春去",@"绿树阴浓夏日长",@"一夜雨声凉到梦",@"风蒲猎猎小池塘",@"别院深深夏席清"];
+    self.dataArray = @[@"HXPhoto图片选择器",@"摸鱼办",@"蝉噪林逾静",@"连雨不知春去",@"绿树阴浓夏日长",@"一夜雨声凉到梦",@"风蒲猎猎小池塘",@"别院深深夏席清"];
     //    启动页中的广告页的监听事件，当点击了广告页时，跳转到相应的页面
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushToAdVC:) name:@"tapAction" object:nil];
 }
 
 - (void)pushToAdVC:(NSNotification *)notification
 {
-    ProblemCalculateCoinViewController *vc = [ProblemCalculateCoinViewController new];
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 #pragma mark - ***************绘制collectionView***************
@@ -120,33 +114,27 @@
 {
     if (indexPath.row == 0)
     {
-        SXWMememeWebViewController *vc = [SXWMememeWebViewController new];
+        SXWHXPhotoViewController *vc = [[SXWHXPhotoViewController alloc] init];
         vc.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:vc animated:YES];
     }
     else if (indexPath.row == 1)
     {
-        ProblemCalculateCoinViewController *vc = [ProblemCalculateCoinViewController new];
+        SXWGetFishViewController *vc = [[SXWGetFishViewController alloc] init];
         vc.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:vc animated:YES];
     }
     else if (indexPath.row == 2)
     {
-        SXWH5ViewController *vc = [SXWH5ViewController new];
-        vc.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:vc animated:YES];
+        
     }
     else if (indexPath.row == 3)
     {
-        SXWZipArchiveHTMLViewController *vc = [SXWZipArchiveHTMLViewController new];
-        vc.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:vc animated:YES];
+        
     }
     else if (indexPath.row == 4)
     {
-        SXWSliderViewController *vc = [SXWSliderViewController new];
-        vc.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:vc animated:YES];
+        
     }
 }
 

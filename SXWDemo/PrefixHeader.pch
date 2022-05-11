@@ -17,30 +17,23 @@
 #import <Masonry.h>
 #import "MJRefresh.h"
 #import <MBProgressHUD.h>
-#import "SXWImageLoader.h"
 //网络请求
 #import "UIImageView+WebCache.h"
 
-//环信
 
 //轮播图
 #import "SDCycleScrollView.h"
 #import "WXApi.h"//微信
 
-
-//全局浮动的button
-#import <MNFloatBtn/MNFloatBtn.h>
-
 //图片选择
 #import "TZImagePickerController.h"
-
-
 //解文件压缩
 #import "SSZipArchive.h"
 
+#import <ReactiveObjC/ReactiveObjC.h>
 
-//提醒事件
-#import "EventCalendar.h"
+//工厂方法
+#import "UIKitFactory.h"
 
 
 #endif /* PrefixHeader_pch */
